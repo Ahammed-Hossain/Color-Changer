@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #da7171;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(to left, #2c7ad3, #0a446b);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+
+    button {
+        padding: 15px 20px;
+        font-size: 18px;
+        color: #fff;
+        background-image: linear-gradient(to left, #2c7ad3, #0a446b);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
